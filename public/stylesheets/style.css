@@ -30,10 +30,13 @@ a {
     font-size: 20px;
     justify-content: center;
     color: maroon;
-    padding: 10px;
+    padding: 30px;
     margin: 20px;
     text-decoration: none;
     shadow: gray;
+    border: 12px dashed dimgray;
+    border-radius: 8px;
+    box-shadow: 10px 10px gainsboro;
 }
 
 h3 {
@@ -43,7 +46,8 @@ h3 {
     color: dimgray;
     padding: 10px;
     margin: 20px;
-    border: 2px solid dimgray;
+    border: 12px solid dimgray;
+    border-shadow: 1px;
 }
 
 p {
